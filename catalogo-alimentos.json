@@ -1,0 +1,295 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-21",
+  "note": "Calorías y proteínas estimadas salvo indicación expresa; el catálogo de la app no registra grasas ni hidratos todavía.",
+  "foods": [
+    {
+      "id": "mollete",
+      "name": "Medio mollete",
+      "emoji": "🥖",
+      "kcal": 133.0,
+      "protein_g": 3.9,
+      "portion": "52,5 g"
+    },
+    {
+      "id": "tuna",
+      "name": "Atún al natural",
+      "emoji": "🐟",
+      "kcal": 60.0,
+      "protein_g": 13.0,
+      "portion": "½ lata (estimado)"
+    },
+    {
+      "id": "tomato",
+      "name": "Tomate",
+      "emoji": "🍅",
+      "kcal": 22.0,
+      "protein_g": 1.1,
+      "portion": "150 g"
+    },
+    {
+      "id": "oil",
+      "name": "Aceite de oliva",
+      "emoji": "🫒",
+      "kcal": 45.0,
+      "protein_g": 0.0,
+      "portion": "1 cucharadita (5 g)"
+    },
+    {
+      "id": "nuts",
+      "name": "Frutos secos",
+      "emoji": "🥜",
+      "kcal": 150.0,
+      "protein_g": 5.0,
+      "portion": "25 g (estimado)"
+    },
+    {
+      "id": "gazpacho",
+      "name": "Gazpacho",
+      "emoji": "🥣",
+      "kcal": 177.0,
+      "protein_g": 3.0,
+      "portion": "300 ml (estimado)"
+    },
+    {
+      "id": "squid",
+      "name": "Calamares salsa americana",
+      "emoji": "🦑",
+      "kcal": 131.0,
+      "protein_g": 10.0,
+      "portion": "80 g escurridos"
+    },
+    {
+      "id": "eggs",
+      "name": "2 huevos",
+      "emoji": "🥚",
+      "kcal": 150.0,
+      "protein_g": 13.0,
+      "portion": "2 unidades (estimado)"
+    },
+    {
+      "id": "orange",
+      "name": "Naranja/mandarina",
+      "emoji": "🍊",
+      "kcal": 60.0,
+      "protein_g": 1.0,
+      "portion": "1 pieza (estimado)"
+    },
+    {
+      "id": "fish",
+      "name": "Pescado al horno",
+      "emoji": "🐠",
+      "kcal": 250.0,
+      "protein_g": 30.0,
+      "portion": "Ración (estimada)"
+    },
+    {
+      "id": "chickpeas",
+      "name": "Garbanzos con espinacas",
+      "emoji": "🥘",
+      "kcal": 300.0,
+      "protein_g": 13.0,
+      "portion": "Ración (estimada)"
+    },
+    {
+      "id": "salmon",
+      "name": "Salmón",
+      "emoji": "🍣",
+      "kcal": 200.0,
+      "protein_g": 22.0,
+      "portion": "100 g (estimado)"
+    },
+    {
+      "id": "anchovies",
+      "name": "Anchoas en aceite",
+      "emoji": "🐟",
+      "kcal": 100.0,
+      "protein_g": 10.0,
+      "portion": "Ración (estimada)"
+    },
+    {
+      "id": "boquerones",
+      "name": "Boquerones en vinagre",
+      "emoji": "🐟",
+      "kcal": 90.0,
+      "protein_g": 15.0,
+      "portion": "Ración (estimada)"
+    },
+    {
+      "id": "bread",
+      "name": "Pan integral",
+      "emoji": "🍞",
+      "kcal": 120.0,
+      "protein_g": 4.0,
+      "portion": "50 g (estimado)"
+    },
+    {
+      "id": "fruit",
+      "name": "Fruta",
+      "emoji": "🍎",
+      "kcal": 80.0,
+      "protein_g": 1.0,
+      "portion": "1 pieza (estimado)"
+    },
+    {
+      "id": "yogurt",
+      "name": "Yogur",
+      "emoji": "🥣",
+      "kcal": 90.0,
+      "protein_g": 5.0,
+      "portion": "1 unidad (estimado)"
+    },
+    {
+      "id": "chicken",
+      "name": "Pollo asado",
+      "emoji": "🍗",
+      "kcal": 300.0,
+      "protein_g": 35.0,
+      "portion": "Ración (estimada)"
+    },
+    {
+      "id": "mahou00tostada",
+      "name": "Mahou 0,0 Tostada",
+      "emoji": "🍺",
+      "kcal": 66.0,
+      "protein_g": 1.0,
+      "portion": "1 lata (330 ml)"
+    },
+    {
+      "id": "elperolchips",
+      "name": "Patatas fritas chips El Perol",
+      "emoji": "🥔",
+      "kcal": 244.0,
+      "protein_g": 2.9,
+      "portion": "45 g (estimado)"
+    },
+    {
+      "id": "panecillo_hacendado_serrano",
+      "name": "Panecillo Hacendado Serrano",
+      "emoji": "🥖",
+      "kcal": 163.0,
+      "protein_g": 4.8,
+      "portion": "1 panecillo (60 g; etiqueta)"
+    },
+    {
+      "id": "chirimoya_150",
+      "name": "Chirimoya",
+      "emoji": "🍈",
+      "kcal": 113.0,
+      "protein_g": 1.5,
+      "portion": "150 g de pulpa (estimado)"
+    },
+    {
+      "id": "chirimoya_entera",
+      "name": "Chirimoya entera",
+      "emoji": "🍈",
+      "kcal": 308.0,
+      "protein_g": 4.1,
+      "portion": "Aprox. 410 g pulpa de pieza de 513 g con piel"
+    },
+    {
+      "id": "tomates_cherry_100",
+      "name": "Tomates cherry",
+      "emoji": "🍅",
+      "kcal": 27.0,
+      "protein_g": 1.0,
+      "portion": "100 g (estimado)"
+    },
+    {
+      "id": "tomates_cherry_bolsa",
+      "name": "Tomates cherry Aldi",
+      "emoji": "🍅",
+      "kcal": 81.0,
+      "protein_g": 3.0,
+      "portion": "Bolsa completa de 300 g (estimado)"
+    },
+    {
+      "id": "fabada_litoral",
+      "name": "Fabada Litoral",
+      "emoji": "🥘",
+      "kcal": 546.0,
+      "protein_g": 27.3,
+      "portion": "Lata completa de 420 g (estimado según etiqueta)"
+    },
+    {
+      "id": "fabada_casera_300",
+      "name": "Fabada casera",
+      "emoji": "🥘",
+      "kcal": 350.0,
+      "protein_g": 18.0,
+      "portion": "300 g con caldo, verdura, alubias y chorizo (estimado)"
+    },
+    {
+      "id": "salmorejo_250",
+      "name": "Salmorejo casero",
+      "emoji": "🥣",
+      "kcal": 295.0,
+      "protein_g": 5.0,
+      "portion": "250 ml (receta estimada)"
+    },
+    {
+      "id": "salmorejo_300",
+      "name": "Salmorejo casero",
+      "emoji": "🥣",
+      "kcal": 355.0,
+      "protein_g": 6.0,
+      "portion": "300 ml (receta estimada)"
+    },
+    {
+      "id": "pinsa_aldi",
+      "name": "Pinsa Cucina Aldi",
+      "emoji": "🍕",
+      "kcal": 598.0,
+      "protein_g": 22.0,
+      "portion": "Pinsa completa de 230 g (estimado; comprobar etiqueta)"
+    },
+    {
+      "id": "mahou00tostada_330",
+      "name": "Mahou 0,0 Tostada",
+      "emoji": "🍺",
+      "kcal": 66.0,
+      "protein_g": 1.0,
+      "portion": "Lata completa de 330 ml (estimado)"
+    },
+    {
+      "id": "atun_natural_lata",
+      "name": "Atún al natural",
+      "emoji": "🐟",
+      "kcal": 110.0,
+      "protein_g": 25.0,
+      "portion": "1 lata escurrida (estimado)"
+    },
+    {
+      "id": "salmon_ahumado_50",
+      "name": "Salmón ahumado",
+      "emoji": "🐟",
+      "kcal": 60.0,
+      "protein_g": 10.0,
+      "portion": "50 g (estimado)"
+    },
+    {
+      "id": "anacardos_20",
+      "name": "Anacardos al natural",
+      "emoji": "🥜",
+      "kcal": 115.0,
+      "protein_g": 3.6,
+      "portion": "20 g (estimado)"
+    },
+    {
+      "id": "cacahuetes_20",
+      "name": "Cacahuetes tostados con piel y sal",
+      "emoji": "🥜",
+      "kcal": 118.0,
+      "protein_g": 5.0,
+      "portion": "20 g sin cáscara (estimado)"
+    },
+    {
+      "id": "aceite_oliva_10",
+      "name": "Aceite de oliva virgen extra",
+      "emoji": "🫒",
+      "kcal": 90.0,
+      "protein_g": 0.0,
+      "portion": "10 g (estimado)"
+    }
+  ]
+}
