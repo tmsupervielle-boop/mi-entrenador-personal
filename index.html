@@ -104,6 +104,30 @@ const FOODS=[
  {id:"mahou00tostada",name:"Mahou 0,0 Tostada",emoji:"🍺",kcal:66,p:1,portion:"1 lata (330 ml)"},
  {id:"elperolchips",name:"Patatas fritas chips El Perol",emoji:"🥔",kcal:244,p:2.9,portion:"45 g (estimado)"}
 ];
+// Carga el catálogo externo y combina sus alimentos con los incluidos en la app.
+async function loadFoodCatalog(){
+  try {
+    const response = await fetch("./catalogo-alimentos.json", {cache:"no-store"});
+    if(!response.ok) throw new Error("HTTP "+response.status);
+    const catalog = await response.json();
+    if(!catalog || !Array.isArray(catalog.foods)) throw new Error("Formato de catálogo no válido");
+    const byId = new Map(FOODS.map(f => [String(f.id), f]));
+    for(const item of catalog.foods){
+      if(!item || !item.id || !item.name) continue;
+      byId.set(String(item.id), {
+        id:String(item.id), name:String(item.name), emoji:item.emoji || "🍽️",
+        kcal:Number(item.kcal) || 0, p:Number(item.protein_g) || 0,
+        portion:item.portion || "1 ración"
+      });
+    }
+    FOODS.splice(0, FOODS.length, ...byId.values());
+    if(document.getElementById("food").classList.contains("active")) renderFood();
+    console.info("Catálogo cargado:", FOODS.length, "alimentos");
+  } catch(err) {
+    console.warn("No se pudo cargar catalogo-alimentos.json; se usa el catálogo integrado.", err);
+  }
+}
+
 const todayISO=()=>new Date().toLocaleDateString("en-CA");
 const fmt=n=>Number(n||0).toLocaleString("es-ES",{maximumFractionDigits:1});
 let data=load(),selectedMeal="Desayuno";
@@ -167,5 +191,6 @@ tryRestoreFolder();
 document.getElementById("today").textContent=new Date().toLocaleDateString("es-ES",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
 if("serviceWorker" in navigator && location.protocol.startsWith("http"))navigator.serviceWorker.register("./sw.js").catch(()=>{});
 render();
+loadFoodCatalog();
 </script>
 </body></html>
